@@ -19,23 +19,13 @@ end
 
 _G.Running = true
 
-local key = getgenv().Key 
 
-local Keys = loadstring(game:HttpGet('https://raw.githubusercontent.com/hairlinebrockeb/mandem/main/keys.lua'))()
-local HasKey = false
 
-for i,v in pairs(Keys) do if key == v then HasKey = true end end
-
-local immune  ={
-    'ml_xy';
-    'pallsbolls';
-    '8qxl0';
-}
 
 -- if Keys[key] then HasKey = true end
 
 wait()
-if HasKey == false and not table.find(immune,game.Players.LocalPlayer.Name) then return warn('Key Invalid') end
+
 getgenv()['IrisAd'] = true
 task.spawn(function()
     local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
@@ -43,7 +33,6 @@ task.spawn(function()
     Notification.Notify("AZFAKE", "A real scripter has the power for code to come to life;", "rbxassetid://4914902889");
 end)
 -- setclipboard('A real scripter has the power for code to come to life;')
-
 --// end
 
 local plr = game.Players.LocalPlayer

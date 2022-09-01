@@ -7,4 +7,5 @@ return {
 	'QVpGQUtFIUtFWSFPTkc=';
 	'QVpGQUtFIUJVWUVSIUtFWQ==';
 	'b2lmYXdmdWpvYXBvdWpxd28=';
+	'ZGpzaWFvbi0xMTIzM2FzLTEyM2FzZA==';
 }
